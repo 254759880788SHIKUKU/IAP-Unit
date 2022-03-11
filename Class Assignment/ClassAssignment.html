@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class Assignment.</title>
+    </head>
+    <body>
+        <h2><b><u>Class Assignment on Forms.</u></b></h2>
+        <form method="post" action="save.php">
+            <label>Patient's Name</label>
+            <input placeholder="Enter your name" name="Frame" type="text" />
+            <br>
+            <h4>Bio</h4>
+            <label>Gender:</label>
+            <input type="radio"  name="Gender" /> female
+            <input type="radio"  name="Gender" /> male
+            <input type="radio"  name="Gender" /> others
+            </p>
+            <br>
+            <label>AGE:</label>
+            <input type="radio"  name="AGE" /> 0-12yrs
+            <input type="radio"  name="AGE" /> 13-19yrs
+            <input type="radio"  name="AGE" /> 20-35yrs
+            <input type="radio"  name="AGE" /> >35yrs
+            <h4>Blood Presssure</h4>
+            <br>
+            <label>Systolic(mmHg): </label>
+            <input type="number" name="Systolic" />
+            <label>Diastolic(mmHg):</label>
+            <input type="number" name="Diastolic" />
+            <br>
+            <label>Body Mass Index Weight(Kgs)</label>
+            <input type="number" name="Body Mass" />
+            <label>Height(Metres)</label>
+            <input type="number" name="Height" />
+            <br>
+            <br>
+            <h5>Status</h5>
+            <input type="submit" name="submit" value="GENERATE"/>
+            <input type="reset" name="reset" value="CANCEL"/>
+            <br>
+            <br>
+    
+            <textarea name="Comments" rows="5" cols="60">
+            </textarea>
+
+
+        </form>
+    </body>
+</html>
